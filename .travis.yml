@@ -11,5 +11,5 @@ before_install:
  - sudo apt-get install liboctave-dev
 
 script:
- - octave-cli tests/oct-setup.m
+# - octave-cli tests/oct-setup.m
  - scilab -nw -f tests/test.sce

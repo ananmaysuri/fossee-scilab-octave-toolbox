@@ -1,3 +1,8 @@
+// loading the gateway
+cd ..
+exec builder.sce
+exec loader.sce
+cd tests
 
 //exec build.sce
 test_pass=[]
